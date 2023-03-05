@@ -55,15 +55,15 @@ describe("Combinatoria", function () {
   it("Deberia devolver 1 para combinatoria de 2,2", function () {
     assert.equal(combinatoria(2, 2), 1);
   });
-  // combinatoria de 3
+  // combinatoria de (7, 2)
   it("Deberia devolver 21 para combinatoria de 7,2", function () {
     assert.equal(combinatoria(7, 2), 21);
   });
-  // combinatoria de 4
+  // combinatoria de (6, 4)
   it("Deberia devolver 15 para combinatoria de 4", function () {
     assert.equal(combinatoria(6, 4), 15);
   });
-  // combinatoria de 5
+  // combinatoria de (5, 1)
   it("Deberia devolver 5 para combinatoria de 5", function () {
     assert.equal(combinatoria(5, 1), 5);
   });
